@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "jhipsterApiGatewayApplication",
+    "packageName": "com.vinnyfs89.jhipstergateway",
+    "packageFolder": "com/vinnyfs89/jhipstergateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.0",
+    "jwtSecretKey": "ZTE0MmI0NGI0OWEyMmI2ZWZhNTBiMTY3MGE3MDg4MDk3OWE2N2VmZmMyOGZmMWViMWQ2MDFmZDUwMzhjZGJkOTdjYjVlODIzZDdiZTk0YTFlZWNkZDBmMjBmNDJhN2VhMzM4OWEyMGNlZGE0YmU4NzVjYzk5ZTYyN2JmZmEwZjk=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "vinnyfs89",
+  "repository-name": "jhipster-api-gateway-application"
+}
