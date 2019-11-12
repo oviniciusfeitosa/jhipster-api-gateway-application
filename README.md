@@ -164,6 +164,10 @@ To stop it and remove the container, run:
 You can also fully dockerize your application and all the services that it depends on.
 To achieve this, first build a docker image of your app by running:
 
+    sudo apt-get install default-jdk
+    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+    source ~/.bashrc 
+    # or $ source ~/.zshrc 
     ./mvnw -Pprod verify jib:dockerBuild
 
 Then run:
